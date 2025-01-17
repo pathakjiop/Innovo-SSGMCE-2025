@@ -167,7 +167,7 @@ const timeline = [
     id: "3",
     title: "RC Car Racing",
     text: "High-octane RC car racing competition.",
-    date: "Feb 15, 2025",
+    date: "Feb 14, 2025",
     status: "upcoming",
     imageUrl: RCimg,
     schedule: [

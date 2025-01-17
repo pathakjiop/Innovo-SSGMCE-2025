@@ -52,7 +52,7 @@ import roadmap3 from "./roadmap/image-3.png";
 import roadmap4 from "./roadmap/image-4.png";
 import undone from "./roadmap/undone.svg";
 import Hackimg from "./img/Hackathon.png";
-import RCimg from "./img/RcCarRacing.png";
+import RCimg from "./img/RcCarRacing.jpg";
 import Projimg from "./img/ProjectExpo.png";
 
 
@@ -81,8 +81,12 @@ import twitter from "./socials/twitter.svg";
 import linkedin from "./socials/linkedin.svg";
 import hackathonimg from './hackathon.jpg'
 
-import poster1 from "../assets/posters/poster1.png";
-import poster2 from "../assets/posters/poster2.png";
+import poster1 from "./posters/poster1.png";
+import poster2 from "./posters/poster2.png";
+
+import ilogo from "./logo/innovo.png";
+import slogo from "./logo/SSGMCE.png";
+
 
 import photo1 from './innovo-gallary/photo1.jpeg';
 import photo2 from './innovo-gallary/photo2.jpeg';
@@ -183,4 +187,6 @@ export {
   faqImage,
   poster1,
   poster2,
+  ilogo,
+  slogo,
 };

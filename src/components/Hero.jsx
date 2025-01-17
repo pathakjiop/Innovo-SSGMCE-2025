@@ -155,6 +155,8 @@ import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
 import Generating from "./Generating";
 import { poster1, poster2 } from '../assets';
 import unstopIcon from "../assets/socials/unstop.svg";
+import '../assets/fonts/fonts.css';
+import "@fontsource/cinzel-decorative";
 
 const Hero = () => {
   return (
@@ -167,6 +169,17 @@ const Hero = () => {
     >
       <div className="container relative">
         <div className="relative z-1 max-w-[63rem]  mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
+      <h1 
+            className="text-5xl font-bold mb-6"
+            style={{
+              fontFamily: "'Cinzel Decorative', system-ui",
+              unicodeBidi: 'isolate',
+              fontFeatureSettings: '"ss01"'
+            }}
+          >
+            # साक्षर BHARAT
+          </h1>
+
           <h1 className="h1 mb-6">
             Unleashing Innovation at {` `}
             <span className="inline-block relative">
@@ -183,6 +196,7 @@ const Hero = () => {
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
             Join us for the ultimate innovation experience at SSGMCE. Create, Collaborate, and Innovate to solve real-world challenges and showcase your creativity.
           </p>
+          
           <a href="https://docs.google.com/forms/d/1ztNk6piJ_XF0ShCR3pLdgxygANdqtJB4XDZjtjPtPeE/edit?fbzx=-8711547680457594187" target="_blank">
 
           <Button>Register Now</Button>

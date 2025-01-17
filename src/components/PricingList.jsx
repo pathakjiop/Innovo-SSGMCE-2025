@@ -75,9 +75,7 @@
 // };
 
 // export default PricingList;
-
 import { pricing } from "../constants";
-
 import Button from "./Button";
 
 const PricingList = () => {
@@ -92,18 +90,20 @@ const PricingList = () => {
   const column3 = item.features.slice(2 * featuresPerColumn);
 
   const splitFeature = (feature) => {
-    // Match the full phone number pattern: +91 followed by numbers
+    // const phoneMatch = feature.match(/\+91\s+\d+\s+\d+/);
+    // const emailMatch = feature.match(/[\w.-]+@[\w.-]+\.\w+/);
+    
+    // const phone = phoneMatch ? phoneMatch[0] : '';
+    // const email = emailMatch ? emailMatch[0] : '';
+    
+     // Updated regex to handle the specific format including titles (Mr./Miss.)
+    const nameMatch = feature.match(/(?:Mr\.|Miss\.)\s+[\w\s\.]+?\s+(?=\+91)/);
     const phoneMatch = feature.match(/\+91\s+\d+\s+\d+/);
     const emailMatch = feature.match(/[\w.-]+@[\w.-]+\.\w+/);
     
-    const phone = phoneMatch ? phoneMatch[0] : '';
+    const name = nameMatch ? nameMatch[0].trim() : '';
+    const phone = phoneMatch ? `(${phoneMatch[0]})` : '';
     const email = emailMatch ? emailMatch[0] : '';
-    
-    // Get name by removing phone and email
-    let name = feature
-      .replace(phone, '')
-      .replace(email, '')
-      .trim();
 
     return {
       name,
@@ -140,15 +140,10 @@ const PricingList = () => {
             ))}
           </div>
         </div>
-        <div className="flex justify-center mt-8">
-          <a href="https://docs.google.com/forms/d/1ztNk6piJ_XF0ShCR3pLdgxygANdqtJB4XDZjtjPtPeE/edit?fbzx=-8711547680457594187" target="_blank">
-            <Button>Contact Us</Button>
-          </a>
-        </div>
       </div>
+
     </section>
   );
 };
-
 
 export default PricingList;
