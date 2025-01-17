@@ -114,7 +114,6 @@
 // };
 
 // export default Pricing;
-
 import Section from "./Section";
 import { smallSphere, stars } from "../assets";
 import Heading from "./Heading";
@@ -160,14 +159,14 @@ const Pricing = () => {
         <div className="w-full mt-10">
           {/* Mobile Layout (up to 639px) */}
           <div className="sm:hidden flex flex-col items-center space-y-8">
-            <div className="w-[200px] h-[84px]">
+            <div className="w-[200px] h-[84px] relative">
               <img 
                 src={slogo} 
                 alt="slogo" 
                 className="w-full h-full object-contain"
               />
             </div>
-            <div className="w-[200px] h-[84px]">
+            <div className="w-[200px] h-[84px] relative">
               <img 
                 src={ilogo} 
                 alt="ilogo" 
@@ -178,14 +177,14 @@ const Pricing = () => {
 
           {/* Small Tablet Layout (640px - 767px) */}
           <div className="hidden sm:flex md:hidden flex-col items-center space-y-10">
-            <div className="w-[300px] h-[126px]">
+            <div className="w-[300px] h-[126px] relative">
               <img 
                 src={slogo} 
                 alt="slogo" 
                 className="w-full h-full object-contain"
               />
             </div>
-            <div className="w-[300px] h-[126px]">
+            <div className="w-[300px] h-[126px] relative">
               <img 
                 src={ilogo} 
                 alt="ilogo" 
@@ -199,7 +198,7 @@ const Pricing = () => {
             <div className="relative min-h-[250px] max-w-[1920px] mx-auto">
               {/* Left logo - responsive positioning */}
               <div className="absolute left-0 md:left-[-20px] lg:left-[-50px] xl:left-[-100px] 2xl:left-[-150px] top-1/2 -translate-y-1/2">
-                <div className="w-[250px] h-[105px] md:w-[300px] md:h-[126px] lg:w-[400px] lg:h-[168px] xl:w-[481px] xl:h-[202px]">
+                <div className="w-[250px] h-[105px] md:w-[300px] md:h-[126px] lg:w-[400px] lg:h-[168px] xl:w-[481px] xl:h-[202px] relative">
                   <img 
                     src={slogo} 
                     alt="slogo" 
@@ -210,7 +209,7 @@ const Pricing = () => {
 
               {/* Right logo - responsive positioning */}
               <div className="absolute right-0 md:right-[-20px] lg:right-[-50px] xl:right-[-100px] 2xl:right-[-150px] top-1/2 -translate-y-1/2">
-                <div className="w-[250px] h-[105px] md:w-[300px] md:h-[126px] lg:w-[400px] lg:h-[168px] xl:w-[481px] xl:h-[202px]">
+                <div className="w-[250px] h-[105px] md:w-[300px] md:h-[126px] lg:w-[400px] lg:h-[168px] xl:w-[481px] xl:h-[202px] relative">
                   <img 
                     src={ilogo} 
                     alt="ilogo" 
