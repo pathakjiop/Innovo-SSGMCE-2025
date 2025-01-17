@@ -66,6 +66,11 @@ export const navigation = [
     url: "#faq",
     // onlyMobile: true,
   },
+  {
+    id: "5",
+    title: "Contact Us",
+    url: "#pricing",
+  },
   // {
   //   id: "5",
   //   title: "Sign in",
@@ -231,33 +236,32 @@ export const pricing = [
   {
     id: "1",
     title: "Phone No.",
-    description: "For advanced inquiries,contact via phone numbers for immediate assistance.",
+    description: "For advanced inquiries, contact via phone numbers or via Email for immediate assistance.",
     price: "9.99",
     features: [
-      "+91 72490 23607",
-      "+91 76662 70948",
-      "+91 7378797870",
-      "+91 9370606384",
-      "+91 9158658291",
-      "+91 9699847211",
+      "Ishwar Sharma +91 72490 23607 ishwarsharma704@gmail.com",
+      "Tushar Fuse +91 88055 88593 tusharfuse18@gmail.com",
+      "Ayush Mishra +91 93735 21814 mishraayush1212@gmail.com",
+      "Tejaswini Bhagat +91 97642 37406 tejaswinibhagat4@gmail.com",
+      "Srushti Babhulkar +91 98607 89451 srushtibabhulkar2003@gmail.com",
+      "Dhruv Nemade +91 93735 65427 dhruvasnemade@gmail.com"
     ],
   },
-  {
-    id: "2",
-    title:"Email",
-    description: "For users seeking custom solutions, via email.",
-    price: null,
-    features: [
-      "ishwarsharma704@gmail.com",
-      "tusharfuse18@gmail.com",
-      "mishraayush1212@gmail.com",
-      "tejaswinibhagat4@gmail.com",
-      "srushtibabhulkar2003@gmail.com",
-      "dhruvasnemade@gmail.com",
-    ],
-  },
+  // {
+  //   id: "2",
+  //   title:"Email",
+  //   description: "For users seeking custom solutions, via email.",
+  //   price: null,
+  //   features: [
+  //     "ishwarsharma704@gmail.com",
+  //     "tusharfuse18@gmail.com",
+  //     "mishraayush1212@gmail.com",
+  //     "tejaswinibhagat4@gmail.com",
+  //     "srushtibabhulkar2003@gmail.com",
+  //     "dhruvasnemade@gmail.com",
+  //   ],
+  // },
 ];
-
 
 
 export const socials = [
