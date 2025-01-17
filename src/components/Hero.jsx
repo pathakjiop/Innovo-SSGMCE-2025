@@ -170,7 +170,7 @@ const Hero = () => {
       <div className="container relative">
         <div className="relative z-1 max-w-[63rem]  mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
       <h1 
-            className="text-5xl font-bold mb-6"
+            className="text-4xl font-bold mb-6"
             style={{
               fontFamily: "'Cinzel Decorative', system-ui",
               unicodeBidi: 'isolate',

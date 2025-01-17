@@ -236,14 +236,14 @@ export const pricing = [
   {
     id: "1",
     title: "Phone No.",
-    description: "For advanced inquiries, contact via phone numbers or via Email for immediate assistance.",
+    description: "Our Amazing Core Team Members.",
     price: "9.99",
     features: [
       "Mr. Ishwar R. Sharma  +91 72490 23607 ishwarsharma704@gmail.com",
-      "Mr. Tushar Y. Fuse  +91 76662 70948 tusharfuse18@gmail.com",
-      "Miss. Tejaswini V. Bhagat +91 93706 06384 tejaswinibhagat4@gmail.com",
-      "Mr. Ayush R. Mishra  +91 98819 56313 mishraayush1212@gmail.com",
       "Mr. Dhruv S. Nemade  +91 96998 47211 dhruvasnemade@gmail.com",
+      "Mr. Tushar Y. Fuse  +91 76662 70948 tusharfuse18@gmail.com",
+      "Mr. Ayush R. Mishra  +91 98819 56313 mishraayush1212@gmail.com",
+      "Miss. Tejaswini V. Bhagat +91 93706 06384 tejaswinibhagat4@gmail.com",
       "Miss. Srushti S. Babhulkar +91 91586 58291 srushtibabhulkar2003@gmail.com",
     ],
   },

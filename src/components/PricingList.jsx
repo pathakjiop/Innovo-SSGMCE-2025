@@ -116,7 +116,7 @@ const PricingList = () => {
     <section className="py-10">
       <div className="container mx-auto">
         <div className="w-full max-w-4xl mx-auto px-6 bg-n-8 border border-n-6 rounded-[2rem] py-8">
-          <p className="body-2 mb-8 text-n-1/50 text-center">
+          <p className="bold text-2xl mb-8 text-n-1/50 text-center">
             {item.description}
           </p>
 
