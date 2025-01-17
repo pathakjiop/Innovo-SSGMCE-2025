@@ -3,9 +3,7 @@ import Heading from "./Heading";
 import Section from "./Section";
 import Tagline from "./Tagline";
 import { hackathonimg, roadmap1, roadmap2, roadmap3 } from "../assets";
-import Hackimg from "../assets/img/Hackathon.png";
-import Projimg from "../assets/img/ProjectExpo.png";
-import Rcimg from "../assets/img/RcCarRacing.png"
+import { Hackimg,Projimg, RCimg } from '../assets';
 import { check2, grid, loading1 } from "../assets";
 import { Gradient } from "./design/Roadmap";
 import { Paperclip } from 'lucide-react';
@@ -171,7 +169,7 @@ const timeline = [
     text: "High-octane RC car racing competition.",
     date: "Feb 15, 2025",
     status: "upcoming",
-    imageUrl: Rcimg,
+    imageUrl: RCimg,
     schedule: [
         {
             time: "9:00 AM - 11:00 AM",

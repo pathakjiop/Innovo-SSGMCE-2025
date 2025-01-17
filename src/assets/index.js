@@ -81,11 +81,16 @@ import twitter from "./socials/twitter.svg";
 import linkedin from "./socials/linkedin.svg";
 import hackathonimg from './hackathon.jpg'
 
+import poster1 from "../assets/posters/poster1.png";
+import poster2 from "../assets/posters/poster2.png";
+
 import photo1 from './innovo-gallary/photo1.jpeg';
 import photo2 from './innovo-gallary/photo2.jpeg';
 import photo3 from './innovo-gallary/photo3.jpeg';
 import photo4 from './innovo-gallary/photo4.jpeg';
 import photo5 from './innovo-gallary/photo5.jpeg';
+
+import faqImage from "../assets/faq.jpg";
 
 import hackimg from './hackimg.jpg'
 import hackimg1 from './hackimg1.jpg'
@@ -166,4 +171,16 @@ export {
   instagram,
   telegram,
   twitter,
+  photo1,
+  photo2,
+  photo3,
+  photo4,
+  photo5,
+  linkedin,
+  Hackimg,
+  RCimg,
+  Projimg,
+  faqImage,
+  poster1,
+  poster2,
 };

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import faqImage from "../assets/faq.jpg";
+import { faqImage } from '../assets';
 import { ArrowLeftCircle, ArrowRightCircle } from 'lucide-react';
 
 

@@ -1,13 +1,24 @@
 import React, { useState } from 'react';
 import GalleryItem from './design/GalleryItem';
 import ImageModal from './design/ImageModal';
-import { hackathonimg } from '../assets';
-import { curve, curve1, curve2 } from '../assets';
-import photo1 from '../assets/innovo-gallary/photo1.jpeg';
-import photo2 from '../assets/innovo-gallary/photo2.jpeg';
-import photo3 from '../assets/innovo-gallary/photo3.jpeg';
-import photo4 from '../assets/innovo-gallary/photo4.jpeg';
-import photo5 from '../assets/innovo-gallary/photo5.jpeg';
+import { 
+  hackathonimg,
+  curve,
+  curve1,
+  curve2,
+  photo1,
+  photo2,
+  photo3,
+  photo4,
+  photo5
+} from '../assets';
+// import { hackathonimg } from '../assets';
+// import { curve, curve1, curve2 } from '../assets';
+// import photo1 from '../assets/innovo-gallary/photo1.jpeg';
+// import photo2 from '../assets/innovo-gallary/photo2.jpeg';
+// import photo3 from '../assets/innovo-gallary/photo3.jpeg';
+// import photo4 from '../assets/innovo-gallary/photo4.jpeg';
+// import photo5 from '../assets/innovo-gallary/photo5.jpeg';
 
 const galleryItems = [
     { id: 1, src: photo1, alt: 'Innovo Image 1', size: 'md:col-span-2 md:row-span-2' },

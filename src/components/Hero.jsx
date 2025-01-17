@@ -153,8 +153,7 @@ import Button from "./Button";
 import Section from "./Section";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
 import Generating from "./Generating";
-import poster1 from "../assets/posters/poster1.png";
-import poster2 from "../assets/posters/poster2.png";
+import { poster1, poster2 } from '../assets';
 import unstopIcon from "../assets/socials/unstop.svg";
 
 const Hero = () => {
