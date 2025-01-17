@@ -228,7 +228,7 @@ const Pricing = () => {
 
       {/* Bottom Copyright Text */}
       <div className="w-full text-center py-6 bg-transparent">
-        <p className="text-sm md:text-base lg:text-lg">
+        <p className="text-sm text-n-3 md:text-base lg:text-lg">
           © Copyright INNOVO SSGMCE 2025. All Right Reserved.
         </p>
       </div>
