@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sora: "Sora", sans-serif;
+  --font-code: "Source Code Pro", monospace;
+  --font-grotesk: "Space Grotesk", sans-serif;
+  color-scheme: dark;
+}
+
+* {
+  scroll-behavior: smooth
+}
+
+@layer base {
+  body {
+    @apply font-sans bg-n-8 text-n-1 text-base;
+  }
+}
+
+.rotate-45 {
+  @apply rotate-[45deg]
+}
+
+.rotate-90 {
+  @apply rotate-[90deg]
+}
+
+.rotate-135 {
+  @apply rotate-[135deg]
+}
+
+.rotate-180 {
+  @apply rotate-[180deg]
+}
+
+.rotate-225 {
+  @apply rotate-[225deg]
+}
+
+.rotate-270 {
+  @apply rotate-[270deg]
+}
+
+.rotate-315 {
+  @apply rotate-[315deg]
+}
+
+.rotate-360 {
+  @apply rotate-[360deg]
+}
+
+.-rotate-45 {
+  @apply rotate-[-45deg]
+}
+
+.-rotate-90 {
+  @apply rotate-[-90deg]
+}
+
+.-rotate-135 {
+  @apply rotate-[-135deg]
+}
+
+.-rotate-180 {
+  @apply rotate-[-180deg]
+}
+
+.-rotate-225 {
+  @apply rotate-[-225deg]
+}
+
+.-rotate-270 {
+  @apply rotate-[-270deg]
+}
+
+.-rotate-315 {
+  @apply rotate-[-315deg]
+}
+
+.-rotate-360 {
+  @apply rotate-[-360deg]
+}
+
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-1) var(--n-7);
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: var(--n-7);
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: var(--color-1);
+  border-radius: 3px;
+}
+/* Custom scrollbar styles for SimpleBar */
+
+/* Vertical scrollbar track */
+.simplebar-track.simplebar-vertical {
+  background-color: #0e0c15; /* Light grey track */
+}
+
+/* Vertical scrollbar thumb */
+.simplebar-scrollbar::before {
+  background-color: cyan; /* Cyan thumb */
+  opacity: 1; /* Ensure the thumb is always visible */
+}
+
+/* Hover state for vertical thumb */
+.simplebar-scrollbar:hover::before {
+  background-color: #00cccc; /* Slightly darker cyan on hover */
+}
+
+/* Horizontal scrollbar track */
+.simplebar-track.simplebar-horizontal {
+  background-color: #f1f1f1; /* Light grey track */
+}
+
+/* Horizontal scrollbar thumb */
+.simplebar-scrollbar.simplebar-horizontal::before {
+  background-color: cyan; /* Cyan thumb */
+}
+
+/* Hover state for horizontal thumb */
+.simplebar-scrollbar.simplebar-horizontal:hover::before {
+  background-color: #00cccc; /* Slightly darker cyan on hover */
+}
