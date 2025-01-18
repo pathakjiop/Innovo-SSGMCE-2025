@@ -154,7 +154,7 @@ import Section from "./Section";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
 import Generating from "./Generating";
 import { poster1, poster2 } from '../assets';
-import unstopIcon from "../assets/socials/unstop.svg";
+import {unstopIcon} from "../assets";
 import '../assets/fonts/fonts.css';
 import "@fontsource/cinzel-decorative";
 

@@ -54,7 +54,7 @@ import undone from "./roadmap/undone.svg";
 import Hackimg from "./img/Hackathon.png";
 import RCimg from "./img/RcCarRacing.jpg";
 import Projimg from "./img/ProjectExpo.png";
-
+import unstopIcon from "./socials/unstop.svg";
 
 import notification1 from "./notification/image-1.png";
 import notification2 from "./notification/image-2.png";
@@ -185,6 +185,7 @@ export {
   RCimg,
   Projimg,
   faqImage,
+  unstopIcon,
   poster1,
   poster2,
   ilogo,
